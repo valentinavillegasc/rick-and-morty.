@@ -1,0 +1,66 @@
+.container {
+  width: fit-content;
+  padding: 1em;
+  border-radius: 51px;
+  background-color: rgba(0, 0, 0, 0.384);
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.photo {
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+.closeButton {
+  font-family: monospace;
+  background-color: #f3f7fe6d;
+  color: purple;
+  border: none;
+  border-radius: 20px;
+  width: 50px;
+  height: 45px;
+  transition: 0.3s;
+}
+
+.closeButton:hover {
+  background-color: purple;
+  box-shadow: 0 0 0 5px #893bf65f;
+  color: #fff;
+}
+
+.info h2 {
+  color: white;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hearthRed {
+  font-size: xx-large;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 40px;
+
+  padding: 5px;
+  width: 10px;
+  height: 45px;
+}
+
+.hearthWhite {
+  font-size: xx-large;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 40px;
+  padding: 5px;
+  width: 10px;
+  height: 45px;
+}
