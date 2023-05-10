@@ -5,7 +5,7 @@ const { postFav, deleteFav } = require("../controllers/handleFavorites");
 const { getCharById } = require("../controllers/getCharById");
 
 const express = require("express");
-const router = express();
+const router = express.Router();
 
 router.get("/character/:id", (request, response) => {
   getCharById(request, response);
